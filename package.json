@@ -2,12 +2,12 @@
   "name": "focusflow-backend",
   "version": "1.0.0",
   "description": "Mock API for FocusFlow",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server db.json --port 3000"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Gustavo",
   "license": "ISC",
   "dependencies": {
     "json-server": "0.17.4"
